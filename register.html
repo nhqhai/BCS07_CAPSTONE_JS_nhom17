@@ -8,6 +8,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Rokkitt:100,300,400,700" rel="stylesheet">
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -96,35 +98,35 @@
 									<div class="col-md-6">
 										<div class="form-group">
 											<label for="fname">Your Email *</label>
-											<input type="text" id="fname" size="40" class="form-control" placeholder="Your Mail Here">
+											<input type="text" id="email" size="40" class="form-control" placeholder="Your Mail Here">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
 											<label for="lname">Your Name *</label>
-											<input type="text" id="lname" class="form-control" placeholder="Your Name Here">
+											<input type="text" id="name" class="form-control" placeholder="Your Name Here">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
 											<label for="fname">Your Password *</label>
-											<input type="text" id="fname" size="40" class="form-control" placeholder="Your Password Here">
+											<input type="password" id="password" size="40" class="form-control" placeholder="Your Password Here">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
 											<label for="lname">Your Phone *</label>
-											<input type="text" id="lname" class="form-control" placeholder="Your Phone Here">
+											<input type="text" id="phone" class="form-control" placeholder="Your Phone Here">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
 											<label for="fname">Confirm Your Password *</label>
-											<input type="text" id="fname" size="40" class="form-control" placeholder="Confirm Here">
+											<input type="password" id="passwordConfirm" size="40" class="form-control" placeholder="Confirm Here">
 										</div>
 									</div>
 									<div class="col-md-6">
-										<div class="form-group">
+										<div class="form-group" id="gender">
 											<label for="lname">Giới tính *</label> <br>
 											<input type="radio" id="male" name="gender" value="male">
 											<label class="mr-4 mt-2" for="male">Male</label>
@@ -238,9 +240,6 @@
 	<script src="js/bootstrap-datepicker.js"></script>
 	<!-- Stellar Parallax -->
 	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
 	<script src="./js/register.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
